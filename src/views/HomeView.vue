@@ -2,7 +2,7 @@
 import Header from "../components/Header.vue";
 
 function videoPlayer(id) {
-  fetch(`http://localhost:3000/video/${id}`)
+  fetch(`https://sowork-festival-express-l42y.onrender.com/video/${id}`)
     .then((response) => {
       console.log(id);
       let info = response.json();

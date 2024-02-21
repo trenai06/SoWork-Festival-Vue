@@ -4,7 +4,7 @@
 
     let schedule = ref([])
 
-    fetch("http://localhost:3000/schedule")
+    fetch("https://sowork-festival-express-l42y.onrender.com/schedule")
     .then ((response) => {
       let info = response.json()
         console.log(info)

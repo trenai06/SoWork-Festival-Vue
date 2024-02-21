@@ -5,7 +5,7 @@ import  { ref } from "vue"
 let artists = ref([])
 
 function artistsCard(){
-  fetch('http://localhost:3000/artists')
+  fetch('https://sowork-festival-express-l42y.onrender.com/artists')
   .then((response) => {
     let info = response.json()
     return info

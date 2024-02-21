@@ -4,7 +4,7 @@ import Header5 from "../components/Header5.vue";
 
 let sponsors = ref([])
 
-fetch("http://localhost:3000/sponsors")
+fetch("https://sowork-festival-express-l42y.onrender.com/sponsors")
 .then((response) => {
     let info = response.json()
     console.log(info)
